@@ -8,7 +8,7 @@ GROUP BY d.department
 ORDER BY "Product Count" DESC
 LIMIT 5;
 
---Which aisles have the most numbers of products listed?
+--Which aisles have the most amount of products??
 SELECT a.aisle,
        COUNT(p.product_name) as "product Count"
 FROM aisles a
@@ -18,7 +18,7 @@ GROUP BY a.aisle
 ORDER BY "product Count" DESC
 LIMIT 5;
 
---What are the top 10 reordered products and which department is it in?
+--Which products are reordered the most frequently across all departments?
 
 SELECT p.product_name,
          d.department,
@@ -33,7 +33,7 @@ GROUP BY p.product_name,
 ORDER BY "reordered product" DESC
 LIMIT 5;
 
--- What products have the most days since prior order.
+-- Which products are associated with the longest intervals between customer orders?
 SELECT p.product_name,
 o.days_since_prior_order
 FROM orders o,
@@ -47,7 +47,7 @@ GROUP BY product_name,
 ORDER BY days_since_prior_order DESC
 LIMIT 5;
 
--- What are the top 5 most popular aisles? Include total numer of orders purchased items.
+-- What are the top 5 most frequently purchased aisles, and what types of products do they primarily contain?
 SELECT a. aisle,
 COUNT (o.order_number) as "Total Purchased"
 FROM products p,
