@@ -178,7 +178,7 @@ CREATE TABLE IF NOT EXISTS order_products(
     )
 """)
 ```
-Tables are created in pgAdmin 4
+Tables are created in PosgreSQL
 
 <img width="150" alt="Screenshot 2025-01-08 at 10 12 20 PM" src="https://github.com/user-attachments/assets/a3d17c4f-eff1-48ba-bfbe-d73f1cc8ea2b" />
    <br><br>
