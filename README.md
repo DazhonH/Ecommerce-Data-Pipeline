@@ -6,6 +6,7 @@ This project demonstrates an end-to-end data pipeline that extracts e-commerce d
 
 ## Architecture Diagram
 ![ETL PIpeline](https://github.com/user-attachments/assets/f7b01f40-cfc1-4ee8-be97-b92089912566)
+Created in [Lucid.app](https://lucid.app)
 
 ## Architecture
 1. **Data Extraction**
@@ -115,6 +116,8 @@ Before Loading to PostgreSql I created the Data model then created the script fo
 ## Data Model
 This project uses the following database schema.
 ![Ecom Data Model](https://github.com/user-attachments/assets/edb9c9b9-5d47-45c9-a153-7a346d9cd98d)
+Created in [Lucid.app](https://lucid.app)
+
 
 ## Tables
 1. **aisles**
